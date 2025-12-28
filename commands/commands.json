@@ -1,0 +1,32 @@
+{
+  "ping": {"category":"SYSTEM","desc":"Check bot response"},
+  "alive": {"category":"SYSTEM","desc":"Check if bot is alive"},
+  "uptime": {"category":"SYSTEM","desc":"Show bot uptime"},
+  "runtime": {"category":"SYSTEM","desc":"Bot runtime"},
+  "botinfo": {"category":"SYSTEM","desc":"Show bot info"},
+
+  "autoread":{"category":"AUTOMATION","desc":"Auto read messages","toggle":true},
+  "autostatusview":{"category":"AUTOMATION","desc":"Auto view status","toggle":true},
+  "chatbot":{"category":"AUTOMATION","desc":"AI chat replies","toggle":true},
+  "autostatusreact":{"category":"AUTOMATION","desc":"React to statuses with emojis","toggle":true},
+
+  "tagall":{"category":"GROUP","desc":"Tag all group members"},
+  "hidetag":{"category":"GROUP","desc":"Send message without mentions"},
+  "groupinfo":{"category":"GROUP","desc":"Show group info"},
+  "admins":{"category":"GROUP","desc":"List group admins"},
+  "welcome":{"category":"GROUP","desc":"Set welcome message"},
+  "goodbye":{"category":"GROUP","desc":"Set goodbye message"},
+
+  "menu":{"category":"FUN","desc":"Show bot menu"},
+  "time":{"category":"FUN","desc":"Show current time"},
+  "date":{"category":"FUN","desc":"Show current date"},
+  "quote":{"category":"FUN","desc":"Random quote"},
+  "fact":{"category":"FUN","desc":"Random fact"},
+  "say":{"category":"FUN","desc":"Bot repeats your text"},
+
+  "owner":{"category":"OWNER","desc":"Owner info","ownerOnly":true},
+  "restart":{"category":"OWNER","desc":"Restart bot","ownerOnly":true},
+  "shutdown":{"category":"OWNER","desc":"Shutdown bot","ownerOnly":true},
+  "settings":{"category":"OWNER","desc":"Bot settings","ownerOnly":true},
+  "setprefix":{"category":"OWNER","desc":"Set command prefix","ownerOnly":true}
+}
