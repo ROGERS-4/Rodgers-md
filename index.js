@@ -1,4 +1,9 @@
-const { default: makeWASocket, useSingleFileAuthState, fetchLatestBaileysVersion } = require("@adiwajshing/baileys");
+const {
+  default: makeWASocket,
+  useMultiFileAuthState,
+  DisconnectReason,
+  fetchLatestBaileysVersion
+} = require('@whiskeysockets/baileys');
 const P = require("pino");
 const { state, saveState } = useSingleFileAuthState("./auth/creds.json");
 const { config } = require("./config");
