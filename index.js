@@ -5,7 +5,7 @@ const {
   fetchLatestBaileysVersion
 } = require('@whiskeysockets/baileys');
 const P = require("pino");
-const { state, saveState } = useSingleFileAuthState("./auth/creds.json");
+const { state, saveCreds } = await useMultiFileAuthState("./auth");
 const { config } = require("./config");
 const { commandHandler } = require("./lib/commandHandler");
 const { startHeartbeat } = require("./lib/heartbeat");
